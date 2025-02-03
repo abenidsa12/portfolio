@@ -309,11 +309,12 @@
       <div class="social-links d-flex justify-content-center">
         <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
         <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
-        <a href="{{ data['social_media']['instagram'] }}"><i class="bi bi-instagram"></i></a>
+         {% for content in data.social_media %}
+        <a href="{{content.link}}"><i class="bi bi-{{content.name}}"></i></a>
         <!-- <a href=""><i class="bi bi-skype"></i></a> -->
-        <a href="{{ data['social_media']['linkedin'] }}"><i class="bi bi-linkedin"></i></a>
-        <a href="{{ data['social_media']['youtube'] }}"><i class="bi bi-youtube"></i></a>
-
+        <!-- <a href="{{ data['social_media']['linkedin'] }}"><i class="bi bi-linkedin"></i></a>
+        <a href="{{ data['social_media']['youtube'] }}"><i class="bi bi-youtube"></i></a> -->
+        {% endfor %}
       </div>
       <div class="container">
         <div class="copyright">

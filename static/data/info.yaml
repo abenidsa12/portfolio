@@ -12,9 +12,12 @@ monologue:
 professions: "Molecular Biologist, Project Coordinator, Researcher, Singer and Pianist"
 
 social_media:
-  instagram: "https://www.instagram.com/a_girl_prayed_for/"
-  linkedin: "https://www.linkedin.com/in/abeni-dsa-5b6188137/"
-  youtube: "https://www.youtube.com/@abenidsa7323"
+  - name: instagram
+    link: "https://www.instagram.com/a_girl_prayed_for/"
+  - name: linkedin
+    link: "https://www.linkedin.com/in/abeni-dsa-5b6188137/"
+  - name: youtube
+    link: "https://www.youtube.com/@abenidsa7323"
 
 pro_title: "Project Coordinator & Ecologist"
 
