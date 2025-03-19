@@ -26,8 +26,8 @@ personal_info:
   email: "dsa.abeni@gmail.com"
   date_of_birth: "12th June 1997"
   phone: "+49 15219281089"
-  city: "Eichstaett"
-  state: Bayern
+  city: "Berlin"
+  state: Berlin
   country: "Germany"
   linkedin: "https://www.linkedin.com/in/abeni-dsa-5b6188137/"
   highest_degree: "Master of Science"
@@ -137,6 +137,17 @@ hobbies:
   - "Cultural and Historic Travel"
 
 work_experience:
+  - job_title: "Team Assistant"
+    company: "Denizens Lab, TU Berlin"
+    companylink: "https://denizenslab.github.io/"
+    location: "Berlin, Germany"
+    duration: "03.2025 - present"
+    responsibilities:
+      - "Provide administrative and team coordination support for AI-driven researches in neuroscience, computational linguistics, and human-machine communication."
+      - "Manage financial processing and budget administration for third-party funded AI research projects, ensuring compliance with institutional guidelines."
+      - "Organize interdisciplinary meetings, workshops, and international conferences, facilitating collaboration among AI researchers, faculty, and industry partners."
+      - "Utilize digital collaboration tools (MS Office, Zoom, WebEx, MS Project, SharePoint) to streamline research administration, scheduling, and communication."
+
   - job_title: "Project Coordinator"
     company: "Referat Weltkirche"
     location: "Eichstätt, Germany"

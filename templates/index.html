@@ -41,7 +41,7 @@
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="/" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="static/img/logo.png" alt=""> -->
         <h1 class="sitename">Welcome!</h1>
@@ -107,6 +107,7 @@
       <div class="container section-title" data-aos="fade-up">
         <h2>About</h2>
         {% for about in data.about_me %}
+        <br>
         <p>{{ about }}</p>
         {% endfor %}
       </div><!-- End Section Title -->
@@ -137,7 +138,7 @@
                 <ul>
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li> -->
                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>{{ data.personal_info.highest_degree }}</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>{{ data.personal_info.email }}</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:{{ data.personal_info.email }}">{{ data.personal_info.email }}</a></span></li>
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li> -->
                 </ul>
               </div>
@@ -173,7 +174,11 @@
         <div class="resume-item">
           <h4>{{ experience['job_title'] }}</h4>
           <h5>{{ experience['duration'] }}</h5>
+          {% if experience['companylink'] %}
+          <p><em><a href="{{ experience['companylink'] }}">{{ experience['company'] }}</a></em></p>
+          {% else %}
           <p><em>{{ experience['company'] }}</em></p>
+          {% endif %}
           <ul>
             {% for responsibility in experience['responsibilities'] %}
             <li>{{ responsibility }}</li>
