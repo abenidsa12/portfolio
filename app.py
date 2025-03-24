@@ -22,9 +22,8 @@ def home():
     mid = len(skills)//2
     skills_l = skills[:mid]
     skills_r = skills[mid:]
-    print(skills)
 
     return render_template("index.html", data = resume_data, skills_l = skills_l, skills_r = skills_r)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)

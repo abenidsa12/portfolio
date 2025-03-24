@@ -9,13 +9,13 @@ about_me:
 monologue:
   - My undergraduate studies laid the foundation for my understanding of biological systems, evolutionary processes, and ecological interactions. With my interest for research, I further pursued a Master of Science in Zoology in India and a Masters of Biology in Germany. This degree deepened my expertise in Molecular Ecology, Microbiome Research and Species Interactions. My Master thesis was hands-on experience in genetic analysis, data visualization, and experimental research-giving me an edge in scientific research and computational biology. While science has been a key part of my life, my extracurricular experiences have shaped my ability to communicate, lead and adapt in diverse environments.
 
-professions: "Molecular Biologist, Project Coordinator, Researcher, Singer and Pianist"
+professions: "Team Assistant, Project Coordinator, Molecular Biologist, Singer and Pianist"
 
 social_media:
   - name: instagram
     link: "https://www.instagram.com/a_girl_prayed_for/"
   - name: linkedin
-    link: "https://www.linkedin.com/in/abeni-dsa-5b6188137/"
+    link: "https://www.linkedin.com/in/abeni-d%E2%80%99sa-5b6188137/"
   - name: youtube
     link: "https://www.youtube.com/@abenidsa7323"
 
@@ -29,7 +29,7 @@ personal_info:
   city: "Berlin"
   state: Berlin
   country: "Germany"
-  linkedin: "https://www.linkedin.com/in/abeni-dsa-5b6188137/"
+  linkedin: "https://www.linkedin.com/in/abeni-d%E2%80%99sa-5b6188137/"
   highest_degree: "Master of Science"
   address: "Eichstätt, Germany"
 
@@ -92,7 +92,7 @@ certifications:
 
 skills:
   - name: "Python"
-    proficiency: 80
+    proficiency: 60
   - name: "R"
     proficiency: 70
   - name: "ANOVA"
@@ -199,7 +199,7 @@ voluntary_activities:
   - role: "Volunteer"
     organization: "Green City e.V."
     location: "Munich, Germany"
-    duration: "Jul 2024 - Present"
+    duration: "Jul 2024 - Nov 2024"
     category: "Environment"
     description: 
       - "Promoting sustainable urban development and environmental conservation."

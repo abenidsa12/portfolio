@@ -49,7 +49,7 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#home" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#resume">Resume</a></li>
           <li><a href="#skills">Skills</a></li>
@@ -131,14 +131,14 @@
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li> -->
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li> -->
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li> -->
-                  <li><i class="bi bi-chevron-right"></i> <strong>State:</strong> <span>{{ data.personal_info.state }}</span></li>
+                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>State:</strong> <span>{{ data.personal_info.state }}</span></li> -->
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:{{ data.personal_info.email }}">{{ data.personal_info.email }}</a></span></li>                   
+                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Highest Qualification:</strong> <span>{{ data.personal_info.highest_degree }}</span></li> -->
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li> -->
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>{{ data.personal_info.highest_degree }}</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:{{ data.personal_info.email }}">{{ data.personal_info.email }}</a></span></li>
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li> -->
                 </ul>
               </div>
@@ -224,7 +224,7 @@
           <h4>{{ education['degree'] }} {% if education['specialization'] %} with specialization in {{ education['specialization'] }} {% endif %}</h4>
           <h5>{{ education['duration'] }}</h5>
           <p><em>{{ education['university'] }}</em></p>
-          <p>Final Grade: {{ education['final_grade'] }}</p>
+          <!-- <p>Final Grade: {{ education['final_grade'] }}</p> -->
           {% if education['thesis'] %}
           <p>Thesis: {{ education['thesis'] }}</p>
           {% endif %}
