@@ -53,7 +53,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#resume">Resume</a></li>
           <li><a href="#skills">Skills</a></li>
-          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+          <li><a href="#portfolio-details">Portfolio</a></li>
           <!-- <li><a href="#portfolio">Portfolio</a></li> -->
           <!-- <li><a href="#team">Team</a></li> -->
           <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -116,7 +116,7 @@
 
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="static/img/profile.jpg" class="img-fluid" alt="">
+            <img src="{{  url_for('static', filename='img/profile_new.jpg')  }}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 content">
             <h2>{{ data.pro_title }}</h2>
@@ -187,16 +187,19 @@
         </div><!-- End Resume Item -->
         {% endfor %}
 
-        <!-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200"> -->
-          <h3 class="resume-title">Scholarships & Accolades</h3>
-          {% for scholarship in data.scholarships %}
-          <div class="resume-item">
-            <h4>{{ scholarship['name'] }}</h4>
-            <h5>{{ scholarship['duration'] }}</h5>
-            <p><em>{{ scholarship['institute'] }}</em></p>
-          </div><!-- End Resume Item -->
-          {% endfor %}
-        <!-- </div> -->
+        <h3 class="resume-title">Projects</h3>
+        {% for project in data.projects %}
+        <div class="resume-item">
+          <h4>{{ project['title'] }}</h4>
+          <h5>{{ project['dates'] }}</h5>
+          <p><em>{{ project['location'] }}</em></p>
+          <ul>
+            {% for desc in project['description'] %}
+            <li>{{ desc }}</li>
+            {% endfor %}
+          </ul>
+        </div><!-- End Resume Item -->
+        {% endfor %}
   
       <!-- Left Column: Voluntary Activities -->
       <!-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200"> -->
@@ -231,7 +234,18 @@
         </div><!-- End Resume Item -->
         {% endfor %}
       <!-- </div> -->
-      
+        
+      <!-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200"> -->
+          <h3 class="resume-title">Scholarships & Accolades</h3>
+          {% for scholarship in data.scholarships %}
+          <div class="resume-item">
+            <h4>{{ scholarship['name'] }}</h4>
+            <h5>{{ scholarship['duration'] }}</h5>
+            <p><em>{{ scholarship['institute'] }}</em></p>
+          </div><!-- End Resume Item -->
+          {% endfor %}
+        <!-- </div> -->
+
       <!-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200"> -->
         <h3 class="resume-title">Certifications</h3>
         {% for certification in data.certifications %}
@@ -304,6 +318,36 @@
       </div>
 
     </section><!-- /Skills Section -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          {% for item in portfolio %}
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="portfolio-item">
+              <img src="{{  url_for('static', filename='img/portfolio/' + item.filename)  }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{{ item.title }}</h4>
+                <p>{{ item.description }}</p>
+                <a href="{{  url_for('static', filename='img/portfolio/' + item.filename)  }}" title="{{ item.title }}" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                {% if item.details_link %}
+                  <a href="{{ item.details_link }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
 
   </main>
 

@@ -1,15 +1,16 @@
 about_me:
   - Hey there, I'm Abeni!
   - A Biologist/Scientist by heart, a team coordinator by profession, and a creative soul always in motion. Whether I'm unraveling the mysteries of the gut microbiome in burying beetles, orchestrating events and managing logistics with precision, or playing a beautiful tone on the piano, I thrive at the intersection of science, creativity and curiosity.
-  - With a Masters in Biology from the RPTU in Kaiserslautern, Germany, I've explored several topics from burying beetles to leaf-cutting ants to microbial secrets of migratory birds at Wadden sea. But these days, you will find me organizing projects, working closely with scientists from the fields of computer science, mathematics, psychology and computational neuroscience, supporting them in their research and teaching activities, handling budgets and ensuring everything flows seamlessly in my role as a Team Assistant.
+  - With a Masters in Biology from the RPTU in Kaiserslautern, Germany, I've explored several topics from burying beetles to leaf-cutting ants to microbial secrets of migratory birds at Wadden sea. But these days, you will find me organizing projects, working closely with scientists from the fields of computer science, mathematics, psychology and computational neuroscience, supporting them in their research and teaching activities, handling budgets and ensuring everything flows seamlessly in my role as a Team Assistant. In addition, I serve as the Office Head for the Vice President for Digitalisation and Sustainability, who is also the current President-Elect of TU Berlin.
   - Beyond work, I'm a pianist, singer, artist (I like to draw and paint), and an adventure seeker who loves travelling and capturing moments through photography.
   - I believe life is a balance of logic and creativity, planning and spontaneity, research and rhythm.
   - Let's connect! Whether it's about science, project management, or discovering the best travel spots in Germany (and Europe), I'm always up for a great conversation.
 
 monologue:
   - My undergraduate studies laid the foundation for my understanding of biological systems, evolutionary processes, and ecological interactions. With my interest for research, I further pursued a Master of Science in Zoology in India and a Masters of Biology in Germany. This degree deepened my expertise in Molecular Ecology, Microbiome Research and Species Interactions. My Master thesis was hands-on experience in genetic analysis, data visualization, and experimental research-giving me an edge in scientific research and computational biology. While science has been a key part of my life, my extracurricular experiences have shaped my ability to communicate, lead and adapt in diverse environments.
+  - My goal is to support scientists in pursuing their ambitions by handling the behind-the-scenes work, a role I genuinely enjoy.
 
-professions: "Team Assistant, Project Coordinator, Molecular Biologist, Singer and Pianist"
+professions: "Team Assistant, Office Lead, Project Coordinator, Molecular Biologist, Singer and Pianist"
 
 social_media:
   - name: instagram
@@ -91,30 +92,55 @@ certifications:
 
 
 skills:
-  - name: "Python"
-    proficiency: 60
-  - name: "R"
-    proficiency: 70
-  - name: "ANOVA"
-    proficiency: 75
-  - name: "Data Visualization"
-    proficiency: 85
+  - name: "Organisation & Management"
+    proficiency: 100
+  - name: "MS Office Suite (Word, Excel, PowerPoint, Outlook)"
+    proficiency: 95
   - name: "Molecular Biology Techniques"
     proficiency: 90
   - name: "DNA/RNA Extraction"
     proficiency: 90
+  - name: "Data Visualization"
+    proficiency: 85
   - name: "RT-PCR"
+    proficiency: 85
+  - name: "LaTeX"
     proficiency: 85
   - name: "Cell Culture"
     proficiency: 80
   - name: "Next Generation Sequencing"
     proficiency: 80
-  - name: "MS Office Suite (Word, Excel, PowerPoint, Outlook)"
-    proficiency: 95
-  - name: "LaTeX"
-    proficiency: 85
-  - name: "Organisation & Management"
-    proficiency: 100
+  - name: "ANOVA"
+    proficiency: 75
+  - name: "R"
+    proficiency: 70
+  - name: "Python"
+    proficiency: 60
+
+projects:
+  - title: "Choir Exchange Project (Jugendkantorei Eichstätt)"
+    dates: "10.2025 - 11.2025"
+    location: "Eichstätt (Germany), Mumbai (India), Pune (India)"
+    description:
+      - "Coordinated an international cultural exchange program."
+      - "Organized logistics, travel arrangements, accommodations and event scheduling."
+      - "Served as a cultural and linguistic bridge between German participants and Indian host organizations."
+  - title: "Exploring the Intriguing World of the Gut Microbiome in Burying Beetles"
+    dates: "09.2022 - 05.2023"
+    location: "Freiburg, Germany"
+    description:
+      - "Conducted metagenomic analysis of gut microbiomes across three beetle species and both sexes, explored their behavioral responses to mouse carcasses for nutritional insights and employed techniques such as dissection, DNA extraction, PCR, gel electrophoresis and sequencing."
+  - title: "Intriguing Differences in Herbivory Pressure Between Ecological Habitats"
+    dates: "07.2022 - 08.2022"
+    location: "Schneeweiderhof, Germany"
+    description:
+      - "Analyzed herbivory variation in Birch trees across Woodland and Quarry habitats, focusing on the impact of tree diversity."
+  - title: "Impact of Migratory Birds on the Microbial Communities at the Wadden Sea"
+    dates: "05.2022 - 06.2022"
+    location: "Sylt, Germany"
+    description: 
+      - "Conducted a comprehensive study on Wadden Sea microbial communities at two distinct sites, focusing on assessing their composition, diversity and ecological roles through DNA extraction, PCR, gel electrophoresis and sequencing techniques."
+  
 
 languages:
   - name: "English"
@@ -148,10 +174,19 @@ work_experience:
       - "Organize interdisciplinary meetings, workshops, and international conferences, facilitating collaboration among AI researchers, faculty, and industry partners."
       - "Utilize digital collaboration tools (MS Office, Zoom, WebEx, MS Project, SharePoint) to streamline research administration, scheduling, and communication."
 
-  - job_title: "Project Coordinator"
+  - job_title: "Office Lead"
+    company: "Vice President's Office for Sustainability and Digitalisation, TU Berlin"
+    location: "Berlin, Germany"
+    duration: "09.2025 - 03.2026"
+    responsibilities:
+      - "Support executive-level strategic planning in university-wide digitalization and sustainability."
+      - "Facilitate inter-departmental alignment and information flow between leadership."
+      - "Act as a key liaison for stakeholder engagement and participation, ensuring transparent communication between the Vice President’s office and the broader university community."
+
+  - job_title: "Administrative Coordinator"
     company: "Referat Weltkirche"
     location: "Eichstätt, Germany"
-    duration: "03.2024 - present"
+    duration: "03.2024 - 07.2025"
     responsibilities:
       - "Provide administrative and project coordination support within the World Church division."
       - "Conduct research on sustainability projects and their ecological impacts."
@@ -173,27 +208,6 @@ work_experience:
     responsibilities:
       - "Taught German grammar and language fundamentals to students in grades 5-8."
       - "Prepared students for language proficiency exams."
-
-projects:
-  - title: "Inherited or Acquired? Study of Microbiome Transmission in Burying Beetles"
-    description:
-      - "Conducted cross-fostering experiments to analyze genetic and environmental microbiome influences."
-      - "Performed DNA extraction, PCR, and sequencing for microbiome profiling."
-      - "Applied statistical analysis (alpha diversity, NMDS, ANOVA, PCoA) using R."
-
-  - title: "Impact of Migratory Birds on Wadden Sea Microbial Communities"
-    description:
-      - "Analyzed microbial community composition through DNA extraction, PCR, and sequencing."
-      - "Studied ecological roles of microbial species at different sites."
-
-  - title: "Herbivory Pressure Between Ecological Habitats"
-    description:
-      - "Examined variation in herbivory among Birch trees in woodland and quarry habitats."
-
-extracurricular_activities:
-  - "Organ Training, Amt für Kirchenmusik, Eichstätt (07.2024–present)"
-  - "Choir Member, Heilige Familie Chor, Eichstätt (03.2024–06.2024)"
-  - "Young Ambassador, DAAD German Academic Exchange Service (08.2023–08.2024)"
 
 voluntary_activities:
   - role: "Volunteer"
@@ -239,9 +253,17 @@ voluntary_activities:
       - "Joined a public environmental exhibition, aiding setup, interactive activities, engaging visitors, and promoting conservation awareness."
 
 extracurricular_activities:
+  - role: "Choir Director (English)"
+    organization: "St. Clemens Church, Berlin"
+    duration: "01.2026 - Present"
+
+  - role: "Choir Member"
+    organization: "St. Clemens Church, Berlin"
+    duration: "07.2025 - 12.2025"
+
   - role: "Basics of Church Organ"
     organization: "BO Kirchenmusik, Eichstätt"
-    duration: "07.2024 - Present"
+    duration: "07.2024 - 06.2025"
 
   - role: "Choir Member"
     organization: "Heilige Familie Chor, Eichstätt"
@@ -266,3 +288,29 @@ extracurricular_activities:
   - role: "Youth President"
     organization: "St. Francis Xavier's Church, Pune, India"
     duration: "06.2020 - 06.2021"
+
+portfolio:
+  - filename: "1.jpg"
+    title: "🪔 Lighting the Ceremonial Lamp — Choir Exchange Project"
+    description: "As invited delegates, we visited a school to engage and motivate students. Lighting the ceremonial candle as chief guests was an honorable moment symbolizing knowledge, unity, and the spirit of cultural exchange."
+    
+  - filename: "2.jpg"
+    title: "🎶 International Choir Exchange — Group Photo"
+    description: "A full group photograph with the Jugendkantorei Eichstätt choir and students of St. Patricks School, capturing the collective spirit of collaboration, music, and cross-cultural friendship formed during the international exchange program."
+    
+  - filename: "3.jpg"
+    title: "🌳 Plant Ecology and Herbivory in Contrasting Habitats"
+    description: "Fieldwork documentation at Schneeweiderhof, highlighting vegetation surveys and biodiversity assessment. This image represent the study of herbivory pressure on birch trees across woodland and quarry habitats, with a focus on how tree diversity shapes ecological interactions."
+    
+  - filename: "6.jpg"
+    title: "🏆 After-Work Cup — Team Spirit Wins"
+    description: "What began as a casual group chat idea turned into an unforgettable team victory. Playing purely for fun and good vibes, we competed against 17 teams and surprised ourselves by bringing the cup back to the lab — a reminder that with the right people and energy, great things happen naturally."
+    details_link: "https://www.tu-sport.de/news/newsdetail/10-after-work-cup-teamgeist-geschick-und-jede-menge-spass-im-tu-sportzentrum-waldschulallee/"
+    
+  - filename: "4.jpg"
+    title: "🌳 Plant Ecology and Herbivory in Contrasting Habitats"
+    description: "Fieldwork documentation at Schneeweiderhof, highlighting vegetation surveys and biodiversity assessment. This image represent the study of herbivory pressure on birch trees across woodland and quarry habitats, with a focus on how tree diversity shapes ecological interactions."
+    
+  - filename: "5.jpg"
+    title: "🪲 Exploring the Gut Microbiome of Burying Beetles"
+    description: "Field and laboratory documentation capturing the life cycle of burying beetles, including larvae feeding on mouse carcasses. These images reflect hands-on ecological research combining fieldwork, behavioral observation, and molecular techniques to uncover microbial adaptations linked to nutrition and reproduction."
