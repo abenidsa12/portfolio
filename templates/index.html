@@ -334,7 +334,9 @@
               <img src="{{  url_for('static', filename='img/portfolio/' + item.filename)  }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>{{ item.title }}</h4>
-                <p>{{ item.description }}</p>
+                {% for para in item.description.strip().split('\n\n') %}
+                <p>{{ para }}</p>
+                {% endfor %}
                 <a href="{{  url_for('static', filename='img/portfolio/' + item.filename)  }}" title="{{ item.title }}" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 {% if item.details_link %}
                   <a href="{{ item.details_link }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>

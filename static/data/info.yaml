@@ -119,24 +119,24 @@ skills:
 
 projects:
   - title: "Choir Exchange Project (Jugendkantorei Eichstätt)"
-    dates: "10.2025 - 11.2025"
+    dates: "10.2025 -- 11.2025"
     location: "Eichstätt (Germany), Mumbai (India), Pune (India)"
     description:
       - "Coordinated an international cultural exchange program."
       - "Organized logistics, travel arrangements, accommodations and event scheduling."
       - "Served as a cultural and linguistic bridge between German participants and Indian host organizations."
   - title: "Exploring the Intriguing World of the Gut Microbiome in Burying Beetles"
-    dates: "09.2022 - 05.2023"
+    dates: "09.2022 -- 05.2023"
     location: "Freiburg, Germany"
     description:
       - "Conducted metagenomic analysis of gut microbiomes across three beetle species and both sexes, explored their behavioral responses to mouse carcasses for nutritional insights and employed techniques such as dissection, DNA extraction, PCR, gel electrophoresis and sequencing."
   - title: "Intriguing Differences in Herbivory Pressure Between Ecological Habitats"
-    dates: "07.2022 - 08.2022"
+    dates: "07.2022 -- 08.2022"
     location: "Schneeweiderhof, Germany"
     description:
       - "Analyzed herbivory variation in Birch trees across Woodland and Quarry habitats, focusing on the impact of tree diversity."
   - title: "Impact of Migratory Birds on the Microbial Communities at the Wadden Sea"
-    dates: "05.2022 - 06.2022"
+    dates: "05.2022 -- 06.2022"
     location: "Sylt, Germany"
     description: 
       - "Conducted a comprehensive study on Wadden Sea microbial communities at two distinct sites, focusing on assessing their composition, diversity and ecological roles through DNA extraction, PCR, gel electrophoresis and sequencing techniques."
@@ -165,19 +165,28 @@ hobbies:
 work_experience:
   - job_title: "Team Assistant"
     company: "Denizens Lab, TU Berlin"
-    companylink: "https://denizenslab.github.io/"
+    companylink: "https://www.tu.berlin/coco"
     location: "Berlin, Germany"
-    duration: "03.2025 - present"
+    duration: "03.2025 -- present"
     responsibilities:
       - "Provide administrative and team coordination support for AI-driven researches in neuroscience, computational linguistics, and human-machine communication."
       - "Manage financial processing and budget administration for third-party funded AI research projects, ensuring compliance with institutional guidelines."
       - "Organize interdisciplinary meetings, workshops, and international conferences, facilitating collaboration among AI researchers, faculty, and industry partners."
       - "Utilize digital collaboration tools (MS Office, Zoom, WebEx, MS Project, SharePoint) to streamline research administration, scheduling, and communication."
 
+  - job_title: "Women & Gender Equality Officer"
+    company: "Faculty IV, TU Berlin"
+    companylink:  "https://www.tu.berlin/eecs/fbfakiv/team/"
+    location: "Berlin, Germany"
+    duration: "04.2026 -- present"
+    responsibilities:
+      - "Counseling in discrimination cases; participation in faculty hiring and drafting statements."
+      - "Coordination with Women’s Affairs bodies; organizing events and training for female students."
+
   - job_title: "Office Lead"
     company: "Vice President's Office for Sustainability and Digitalisation, TU Berlin"
     location: "Berlin, Germany"
-    duration: "09.2025 - 03.2026"
+    duration: "09.2025 -- 03.2026"
     responsibilities:
       - "Support executive-level strategic planning in university-wide digitalization and sustainability."
       - "Facilitate inter-departmental alignment and information flow between leadership."
@@ -186,7 +195,7 @@ work_experience:
   - job_title: "Administrative Coordinator"
     company: "Referat Weltkirche"
     location: "Eichstätt, Germany"
-    duration: "03.2024 - 07.2025"
+    duration: "03.2024 -- 07.2025"
     responsibilities:
       - "Provide administrative and project coordination support within the World Church division."
       - "Conduct research on sustainability projects and their ecological impacts."
@@ -196,7 +205,7 @@ work_experience:
   - job_title: "Student Research Assistant (HiWi)"
     company: "University of Freiburg"
     location: "Freiburg, Germany"
-    duration: "11.2022 - 02.2024"
+    duration: "11.2022 -- 02.2024"
     responsibilities:
       - "Conducted behavioral studies on leaf-cutting ants to analyze aging processes."
       - "Maintained ant colonies and their symbiotic fungus gardens."
@@ -204,7 +213,7 @@ work_experience:
   - job_title: "English and German Teacher"
     company: "Pratibha International School"
     location: "Pune, India"
-    duration: "09.2020 - 07.2021"
+    duration: "09.2020 -- 07.2021"
     responsibilities:
       - "Taught German grammar and language fundamentals to students in grades 5-8."
       - "Prepared students for language proficiency exams."
@@ -213,7 +222,7 @@ voluntary_activities:
   - role: "Volunteer"
     organization: "Green City e.V."
     location: "Munich, Germany"
-    duration: "Jul 2024 - Nov 2024"
+    duration: "Jul 2024 -- Nov 2024"
     category: "Environment"
     description: 
       - "Promoting sustainable urban development and environmental conservation."
@@ -223,7 +232,7 @@ voluntary_activities:
   - role: "Volunteer"
     organization: "Lebenshilfe Freiburg"
     location: "Freiburg, Germany"
-    duration: "May 2023 - Oct 2023"
+    duration: "May 2023 -- Oct 2023"
     category: "Social Services"
     description: 
       - "Support and assistance to individuals with disabilities."
@@ -231,7 +240,7 @@ voluntary_activities:
   - role: "English Teacher"
     organization: "Ibtada (NGO)"
     location: "India"
-    duration: "May 2021 - Aug 2021"
+    duration: "May 2021 -- Aug 2021"
     category: "Education"
     description: 
       - "Taught underprivileged girls English fundamentals, fostering practical usage and providing tailored support."
@@ -247,7 +256,7 @@ voluntary_activities:
   - role: "Umdenken Environmental Exhibition Participant"
     organization: "Goethe Institute"
     location: "Pune, India"
-    duration: "June 2018 - July 2018"
+    duration: "June 2018 -- July 2018"
     category: "Environmental Awareness"
     description: 
       - "Joined a public environmental exhibition, aiding setup, interactive activities, engaging visitors, and promoting conservation awareness."
@@ -255,41 +264,52 @@ voluntary_activities:
 extracurricular_activities:
   - role: "Choir Director (English)"
     organization: "St. Clemens Church, Berlin"
-    duration: "01.2026 - Present"
+    duration: "01.2026 -- Present"
 
   - role: "Choir Member"
     organization: "St. Clemens Church, Berlin"
-    duration: "07.2025 - 12.2025"
+    duration: "07.2025 -- 12.2025"
 
   - role: "Basics of Church Organ"
     organization: "BO Kirchenmusik, Eichstätt"
-    duration: "07.2024 - 06.2025"
+    duration: "07.2024 -- 06.2025"
 
   - role: "Choir Member"
     organization: "Heilige Familie Chor, Eichstätt"
-    duration: "03.2024 - 06.2024"
+    duration: "03.2024 -- 06.2024"
 
   - role: "Young Ambassador"
     organization: "DAAD German Academic Exchange Service"
-    duration: "08.2023 - 08.2024"
+    duration: "08.2023 -- 08.2024"
 
   - role: "Musician"
     organization: "Lobpreisband, KHG Edith Stein, Freiburg"
-    duration: "10.2022 - 02.2024"
+    duration: "10.2022 -- 02.2024"
 
   - role: "Member of the Organizing Committee"
     organization: "Vauban Sommerfest, Freiburg"
-    duration: "03.2023 - 06.2023"
+    duration: "03.2023 -- 06.2023"
 
   - role: "Student Secretary of Foreign Ministry"
     organization: "KHG, Kaiserslautern"
-    duration: "08.2021 - 08.2022"
+    duration: "08.2021 -- 08.2022"
 
   - role: "Youth President"
     organization: "St. Francis Xavier's Church, Pune, India"
-    duration: "06.2020 - 06.2021"
+    duration: "06.2020 -- 06.2021"
 
 portfolio:
+  - filename: "Enhance_1.jpeg"
+    title: "ENHANCE STAFF WEEK"
+    description: |
+      From 6th - 8th May 2026, I had the opportunity to attend the ENHANCE Alliance GREAT Programme Staff Week, hosted by Gdańsk University of Technology. This was such a valuable chance to exchange ideas with colleagues from different departments across the alliance Technische Universität Berlin, Delft University of Technology, ETH Zurich, RWTH Aachen University, Politecnico di Milano, Norwegian University of Science and Technology (NTNU), Universitat Politècnica de València (UPV), and to get a first-hand look at how things actually work at Gdańsk University of Technology.
+
+      There's only so much you can learn from emails and shared documents. Sitting down with people who navigate these processes daily and hearing their perspective made all the difference.
+
+      Beyond the workshops and job shadowing, what stood out most was their hospitality. From the very first day, everyone made sure we felt genuinely welcome and that openness made the exchange so much richer.
+
+      Grateful for the connections made and the insights gained and looking forward to seeing how they shape our work across the alliance going forward. 🌱
+
   - filename: "1.jpg"
     title: "🪔 Lighting the Ceremonial Lamp — Choir Exchange Project"
     description: "As invited delegates, we visited a school to engage and motivate students. Lighting the ceremonial candle as chief guests was an honorable moment symbolizing knowledge, unity, and the spirit of cultural exchange."

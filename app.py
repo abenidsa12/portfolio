@@ -9,7 +9,7 @@ import pandas as pd
 app = Flask(__name__, template_folder='templates')
 
 def load_yaml():
-    with open("static/data/info.yaml") as f:
+    with open("static/data/info.yaml", encoding="utf-8") as f:
         try:
             return yaml.safe_load(f)
         except yaml.YAMLError as e:
