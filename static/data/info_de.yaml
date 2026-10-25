@@ -1,0 +1,366 @@
+ui:
+  welcome: "Willkommen!"
+  nav_home: "Start"
+  nav_about: "Über mich"
+  nav_resume: "Lebenslauf"
+  nav_skills: "Kenntnisse"
+  nav_portfolio: "Portfolio"
+  hero_greeting: "Hallo, ich bin {name}!"
+  hero_line: "Ich bin {professions} und lebe in {country}"
+  scroll_down: "Nach unten scrollen"
+  about: "Über mich"
+  email: "E-Mail"
+  resume: "Lebenslauf"
+  professional_experience: "Berufserfahrung"
+  projects: "Projekte"
+  voluntary_activities: "Ehrenamtliches Engagement"
+  education: "Ausbildung"
+  with_specialization: "mit Schwerpunkt"
+  thesis: "Abschlussarbeit"
+  scholarships: "Stipendien & Auszeichnungen"
+  certifications: "Zertifikate"
+  extracurricular_activities: "Außerberufliche Aktivitäten"
+  skills: "Kenntnisse"
+  portfolio: "Portfolio"
+  more_details: "Mehr erfahren"
+  copyright: "Copyright"
+  rights_reserved: "Alle Rechte vorbehalten"
+  designed_by: "Design von"
+
+about_me:
+  - Hallo, ich bin Abeni!
+  - Im Herzen Biologin und Wissenschaftlerin, beruflich Teamkoordinatorin und eine kreative Seele, die immer in Bewegung ist. Ob ich die Geheimnisse des Darmmikrobioms von Totengräberkäfern entschlüssele, Veranstaltungen organisiere und die Logistik mit Präzision plane oder dem Klavier schöne Töne entlocke – ich fühle mich dort am wohlsten, wo Wissenschaft, Kreativität und Neugier aufeinandertreffen.
+  - Frauen und FLINTA*-Personen in der Wissenschaft zu unterstützen und dafür zu sorgen, dass jede Stimme gehört wird – das treibt mich in meiner Arbeit als Frauen- und Gleichstellungsbeauftragte an.
+  - Mit einem Master in Biologie von der RPTU in Kaiserslautern habe ich mich mit vielen Themen beschäftigt – von Totengräberkäfern über Blattschneiderameisen bis hin zu den mikrobiellen Geheimnissen von Zugvögeln im Wattenmeer. Heute organisiere ich Projekte, arbeite eng mit Wissenschaftlerinnen und Wissenschaftlern aus Informatik, Mathematik, Psychologie und Computational Neuroscience zusammen, unterstütze sie in Forschung und Lehre, verwalte Budgets und sorge als Teamassistentin dafür, dass alles reibungslos läuft. Außerdem war ich Büroleiterin des Vizepräsidenten für Digitalisierung und Nachhaltigkeit, der heute Präsident der TU Berlin ist.
+  - Neben der Arbeit bin ich Pianistin, Sängerin, Künstlerin (ich zeichne und male gern) und Abenteurerin, die gerne reist und Momente mit der Kamera festhält.
+  - Für mich ist das Leben eine Balance aus Logik und Kreativität, Planung und Spontaneität, Forschung und Rhythmus.
+  - Lass uns in Kontakt treten! Ob Wissenschaft, Projektmanagement oder die schönsten Reiseziele in Deutschland (und Europa) – ich freue mich immer über ein gutes Gespräch.
+
+monologue:
+  - Mein Bachelorstudium legte den Grundstein für mein Verständnis biologischer Systeme, evolutionärer Prozesse und ökologischer Wechselwirkungen. Aus Interesse an der Forschung absolvierte ich anschließend einen Master of Science in Zoologie in Indien und einen Master in Biologie in Deutschland. Dieses Studium vertiefte meine Kenntnisse in molekularer Ökologie, Mikrobiomforschung und Artinteraktionen. Meine Masterarbeit brachte mir praktische Erfahrung in genetischer Analyse, Datenvisualisierung und experimenteller Forschung – ein klarer Vorteil in der wissenschaftlichen Forschung und der computergestützten Biologie. Während die Wissenschaft ein zentraler Teil meines Lebens ist, haben meine außerberuflichen Erfahrungen meine Fähigkeit geprägt, zu kommunizieren, zu führen und mich in unterschiedlichen Umgebungen anzupassen.
+  - Mein Ziel ist es, Wissenschaftlerinnen und Wissenschaftler bei der Verwirklichung ihrer Vorhaben zu unterstützen, indem ich mich um die Arbeit hinter den Kulissen kümmere – eine Aufgabe, die mir wirklich Freude macht.
+
+professions: "Teamassistentin, Büroleiterin, Projektkoordinatorin, Molekularbiologin, Sängerin und Pianistin"
+
+social_media:
+  - name: instagram
+    link: "https://www.instagram.com/a_girl_prayed_for/"
+  - name: linkedin
+    link: "https://www.linkedin.com/in/abeni-d%E2%80%99sa-5b6188137/"
+  # - name: youtube
+  #   link: "https://www.youtube.com/@abenidsa7323"
+
+pro_title: "Teamassistentin, Projektkoordinatorin & Molekularbiologin"
+
+personal_info:
+  name: "Abeni D'Sa"
+  email: "dsa.abeni@gmail.com"
+  date_of_birth: "12. Juni 1997"
+  phone: "+49 15219281089"
+  city: "Berlin"
+  state: Berlin
+  country: "Deutschland"
+  linkedin: "https://www.linkedin.com/in/abeni-d%E2%80%99sa-5b6188137/"
+  highest_degree: "Master of Science"
+  address: "Eichstätt, Deutschland"
+
+education:
+  - degree: "Master of Science in Biologie"
+    university: "Rheinland-Pfälzische Technische Universität (RPTU), Kaiserslautern"
+    location: "Kaiserslautern, Deutschland"
+    duration: "10.2021 - 02.2024"
+    specialization: "Ökologie"
+    final_grade: "1,6"
+    thesis: "Inherited or Acquired? Study of Microbiome Transmission in Nicrophorus vespillo and Nicrophorus vespilloides"
+
+  - degree: "Master of Science in Zoologie"
+    university: "Savitribai Phule Pune University"
+    location: "Pune, Indien"
+    duration: "07.2019 - 04.2021"
+    final_grade: "1,5"
+    thesis: "Computational analysis of Opsin 2 protein in Schistocerca gregaria"
+
+  - degree: "Bachelor of Science in Zoologie"
+    university: "Savitribai Phule Pune University"
+    location: "Pune, Indien"
+    duration: "07.2016 - 04.2019"
+    final_grade: "2,0"
+
+scholarships:
+  - name: "Albertus-Magnus- und Hildegardis-Verein Studienstiftung"
+    institute: "Erzdiözese Freiburg"
+    duration: "06.2023 - 11.2023"
+
+  - name: "DAAD STIBET Stipendienstiftung Exzellenz-Stipendium"
+    institute: "Rheinland-Pfälzische Technische Universität (RPTU), Kaiserslautern"
+    duration: "07.2023 - 12.2023"
+
+certifications:
+  - name: "Schulung zur Guten Herstellungspraxis (GMP)"
+    provider: "GMP Academy"
+    date: "02.2024"
+
+  - name: "Advanced Diploma in deutscher Sprache"
+    provider: "University of Mumbai"
+    date: "02.2021"
+
+  - name: "Grundlegende Techniken der Molekularbiologie"
+    provider: "Savitribai Phule Pune University"
+    date: "08.2019"
+
+  - name: "Goethe-Zertifikat C1"
+    provider: "Goethe-Institut, Pune"
+    date: "04.2018"
+
+  - name: "Klavierausbildung Grade 8"
+    provider: "Trinity College, London"
+    date: "01.2015"
+
+  - name: "Musiktheorie Grade 7"
+    provider: "Trinity College, London"
+    date: "06.2014"
+
+
+skills:
+  - name: "Organisation & Management"
+    proficiency: 100
+  - name: "MS Office (Word, Excel, PowerPoint, Outlook)"
+    proficiency: 95
+  - name: "Molekularbiologische Methoden"
+    proficiency: 90
+  - name: "DNA-/RNA-Extraktion"
+    proficiency: 90
+  - name: "Datenvisualisierung"
+    proficiency: 85
+  - name: "RT-PCR"
+    proficiency: 85
+  - name: "LaTeX"
+    proficiency: 85
+  - name: "Zellkultur"
+    proficiency: 80
+  - name: "Next Generation Sequencing"
+    proficiency: 80
+  - name: "ANOVA"
+    proficiency: 75
+  - name: "R"
+    proficiency: 70
+  - name: "Python"
+    proficiency: 60
+
+projects:
+  - title: "Chor-Austauschprojekt (Jugendkantorei Eichstätt)"
+    dates: "10.2025 -- 11.2025"
+    location: "Eichstätt (Deutschland), Mumbai (Indien), Pune (Indien)"
+    description:
+      - "Koordination eines internationalen Kulturaustauschprogramms."
+      - "Organisation von Logistik, Reisen, Unterkünften und Veranstaltungsplanung."
+      - "Kulturelle und sprachliche Brücke zwischen den deutschen Teilnehmenden und den indischen Gastorganisationen."
+  - title: "Die faszinierende Welt des Darmmikrobioms von Totengräberkäfern"
+    dates: "09.2022 -- 05.2023"
+    location: "Freiburg, Deutschland"
+    description:
+      - "Metagenomische Analyse der Darmmikrobiome von drei Käferarten und beiden Geschlechtern, Untersuchung ihres Verhaltens gegenüber Mäusekadavern im Hinblick auf die Ernährung sowie Einsatz von Methoden wie Präparation, DNA-Extraktion, PCR, Gelelektrophorese und Sequenzierung."
+  - title: "Unterschiede im Herbivoriedruck zwischen ökologischen Lebensräumen"
+    dates: "07.2022 -- 08.2022"
+    location: "Schneeweiderhof, Deutschland"
+    description:
+      - "Analyse der unterschiedlichen Herbivorie an Birken in Wald- und Steinbruchhabitaten mit Fokus auf den Einfluss der Baumvielfalt."
+  - title: "Einfluss von Zugvögeln auf die mikrobiellen Gemeinschaften im Wattenmeer"
+    dates: "05.2022 -- 06.2022"
+    location: "Sylt, Deutschland"
+    description:
+      - "Umfassende Studie zu mikrobiellen Gemeinschaften an zwei unterschiedlichen Standorten im Wattenmeer mit Fokus auf Zusammensetzung, Diversität und ökologische Funktion, unter Einsatz von DNA-Extraktion, PCR, Gelelektrophorese und Sequenzierung."
+
+
+languages:
+  - name: "Englisch"
+    proficiency: "C2"
+  - name: "Deutsch"
+    proficiency: "C2"
+  - name: "Hindi"
+    proficiency: "C1"
+  - name: "Konkani"
+    proficiency: "Muttersprache"
+
+hobbies:
+  - "Klavierspielen"
+  - "Singen"
+  - "Malen"
+  - "Digitales Zeichnen"
+  - "Fotografie"
+  - "Radfahren"
+  - "Wandern"
+  - "Kultur- und Geschichtsreisen"
+
+work_experience:
+  - job_title: "Teamassistentin"
+    company: "Denizens Lab, TU Berlin"
+    companylink: "https://www.tu.berlin/coco"
+    location: "Berlin, Deutschland"
+    duration: "03.2025 -- heute"
+    responsibilities:
+      - "Administrative Unterstützung und Teamkoordination für KI-gestützte Forschung in den Bereichen Neurowissenschaften, Computerlinguistik und Mensch-Maschine-Kommunikation."
+      - "Finanzabwicklung und Budgetverwaltung für drittmittelfinanzierte KI-Forschungsprojekte unter Einhaltung der universitären Richtlinien."
+      - "Organisation interdisziplinärer Meetings, Workshops und internationaler Konferenzen zur Förderung der Zusammenarbeit zwischen KI-Forschenden, Lehrenden und Industriepartnern."
+      - "Einsatz digitaler Kollaborationstools (MS Office, Zoom, WebEx, MS Project, SharePoint) zur effizienten Gestaltung von Forschungsverwaltung, Terminplanung und Kommunikation."
+
+  - job_title: "Frauen- und Gleichstellungsbeauftragte"
+    company: "Fakultät IV, TU Berlin"
+    companylink:  "https://www.tu.berlin/eecs/fbfakiv/team/"
+    location: "Berlin, Deutschland"
+    duration: "04.2026 -- heute"
+    responsibilities:
+      - "Beratung in Diskriminierungsfällen; Mitwirkung an Berufungsverfahren der Fakultät und Verfassen von Stellungnahmen."
+      - "Abstimmung mit den Gremien der Frauenbeauftragten; Organisation von Veranstaltungen und Fortbildungen für Studentinnen."
+
+  - job_title: "Büroleiterin"
+    company: "Büro des Vizepräsidenten für Nachhaltigkeit und Digitalisierung, TU Berlin"
+    location: "Berlin, Deutschland"
+    duration: "09.2025 -- 03.2026"
+    responsibilities:
+      - "Unterstützung der strategischen Planung auf Leitungsebene in den Bereichen universitätsweite Digitalisierung und Nachhaltigkeit."
+      - "Förderung der Abstimmung zwischen den Bereichen und des Informationsflusses innerhalb der Hochschulleitung."
+      - "Zentrale Ansprechpartnerin für die Einbindung und Beteiligung von Stakeholdern; Sicherstellung einer transparenten Kommunikation zwischen dem Büro des Vizepräsidenten und der gesamten Universität."
+
+  - job_title: "Verwaltungskoordinatorin"
+    company: "Referat Weltkirche"
+    location: "Eichstätt, Deutschland"
+    duration: "03.2024 -- 07.2025"
+    responsibilities:
+      - "Administrative Unterstützung und Projektkoordination im Referat Weltkirche."
+      - "Recherche zu Nachhaltigkeitsprojekten und deren ökologischen Auswirkungen."
+      - "Finanzverwaltung von Projekten, einschließlich Budgetplanung und Buchhaltung."
+      - "Koordination von Veranstaltungen und Bearbeitung der schriftlichen Korrespondenz."
+
+  - job_title: "Studentische Hilfskraft (HiWi)"
+    company: "Universität Freiburg"
+    location: "Freiburg, Deutschland"
+    duration: "11.2022 -- 02.2024"
+    responsibilities:
+      - "Verhaltensstudien an Blattschneiderameisen zur Untersuchung von Alterungsprozessen."
+      - "Pflege von Ameisenkolonien und ihren symbiotischen Pilzgärten."
+
+  - job_title: "Englisch- und Deutschlehrerin"
+    company: "Pratibha International School"
+    location: "Pune, Indien"
+    duration: "09.2020 -- 07.2021"
+    responsibilities:
+      - "Unterricht in deutscher Grammatik und sprachlichen Grundlagen für die Klassen 5–8."
+      - "Vorbereitung der Schülerinnen und Schüler auf Sprachprüfungen."
+
+voluntary_activities:
+  - role: "Ehrenamtliche Mitarbeiterin"
+    organization: "Green City e.V."
+    location: "München, Deutschland"
+    duration: "Juli 2024 -- Nov. 2024"
+    category: "Umwelt"
+    description:
+      - "Einsatz für nachhaltige Stadtentwicklung und Umweltschutz."
+      - "Mitarbeit an verschiedenen Initiativen zur Aufwertung von Grünflächen, Förderung umweltfreundlicher Mobilität und Stärkung des Umweltbewusstseins in der Bevölkerung."
+      - "Zusammenarbeit mit lokalen Akteuren bei der Umsetzung von Projekten, die München grüner und nachhaltiger machen."
+
+  - role: "Ehrenamtliche Mitarbeiterin"
+    organization: "Lebenshilfe Freiburg"
+    location: "Freiburg, Deutschland"
+    duration: "Mai 2023 -- Okt. 2023"
+    category: "Soziale Dienste"
+    description:
+      - "Unterstützung und Begleitung von Menschen mit Behinderung."
+
+  - role: "Englischlehrerin"
+    organization: "Ibtada (NGO)"
+    location: "Indien"
+    duration: "Mai 2021 -- Aug. 2021"
+    category: "Bildung"
+    description:
+      - "Vermittlung von Englisch-Grundlagen an benachteiligte Mädchen mit Fokus auf praktische Anwendung und individuelle Förderung."
+
+  - role: "Teilnehmerin am Jugendkongress"
+    organization: "Goethe-Institut"
+    location: "Pune, Indien"
+    duration: "Juni 2019"
+    category: "Nachhaltigkeit"
+    description:
+      - "Leitung der Jugendbeteiligung an der Nachhaltigkeitsveranstaltung von PASCH, einschließlich Logistik, Werbung und Einbindung der Teilnehmenden zur Förderung nachhaltiger Praktiken."
+
+  - role: "Teilnehmerin an der Umweltausstellung „Umdenken“"
+    organization: "Goethe-Institut"
+    location: "Pune, Indien"
+    duration: "Juni 2018 -- Juli 2018"
+    category: "Umweltbewusstsein"
+    description:
+      - "Mitwirkung an einer öffentlichen Umweltausstellung: Unterstützung beim Aufbau, interaktive Aktivitäten, Betreuung der Besucherinnen und Besucher und Förderung des Bewusstseins für Naturschutz."
+
+extracurricular_activities:
+  - role: "Chorleiterin (englischsprachig)"
+    organization: "St. Clemens Kirche, Berlin"
+    duration: "01.2026 -- heute"
+
+  - role: "Chormitglied"
+    organization: "St. Clemens Kirche, Berlin"
+    duration: "07.2025 -- 12.2025"
+
+  - role: "Grundkurs Kirchenorgel"
+    organization: "BO Kirchenmusik, Eichstätt"
+    duration: "07.2024 -- 06.2025"
+
+  - role: "Chormitglied"
+    organization: "Heilige Familie Chor, Eichstätt"
+    duration: "03.2024 -- 06.2024"
+
+  - role: "Young Ambassador"
+    organization: "DAAD – Deutscher Akademischer Austauschdienst"
+    duration: "08.2023 -- 08.2024"
+
+  - role: "Musikerin"
+    organization: "Lobpreisband, KHG Edith Stein, Freiburg"
+    duration: "10.2022 -- 02.2024"
+
+  - role: "Mitglied des Organisationskomitees"
+    organization: "Vauban Sommerfest, Freiburg"
+    duration: "03.2023 -- 06.2023"
+
+  - role: "Studentische Referentin für Auswärtiges"
+    organization: "KHG, Kaiserslautern"
+    duration: "08.2021 -- 08.2022"
+
+  - role: "Jugendpräsidentin"
+    organization: "St. Francis Xavier's Church, Pune, Indien"
+    duration: "06.2020 -- 06.2021"
+
+portfolio:
+  - filename: "Enhance_1.jpeg"
+    title: "ENHANCE STAFF WEEK"
+    description: |
+      Vom 6. bis 8. Mai 2026 hatte ich die Gelegenheit, an der Staff Week des GREAT-Programms der ENHANCE-Allianz teilzunehmen, ausgerichtet von der Technischen Universität Danzig. Es war eine wertvolle Chance, sich mit Kolleginnen und Kollegen aus verschiedenen Abteilungen der Allianz auszutauschen – Technische Universität Berlin, TU Delft, ETH Zürich, RWTH Aachen, Politecnico di Milano, Norwegian University of Science and Technology (NTNU) und Universitat Politècnica de València (UPV) – und aus erster Hand zu erleben, wie die Abläufe an der Technischen Universität Danzig tatsächlich funktionieren.
+
+      Aus E-Mails und geteilten Dokumenten kann man nur begrenzt lernen. Sich mit den Menschen zusammenzusetzen, die diese Prozesse täglich gestalten, und ihre Sichtweise zu hören, hat den entscheidenden Unterschied gemacht.
+
+      Neben den Workshops und dem Job Shadowing ist mir vor allem die Gastfreundschaft in Erinnerung geblieben. Vom ersten Tag an haben alle dafür gesorgt, dass wir uns wirklich willkommen fühlten – und diese Offenheit hat den Austausch umso bereichernder gemacht.
+
+      Ich bin dankbar für die neuen Kontakte und Erkenntnisse und freue mich darauf zu sehen, wie sie unsere Zusammenarbeit in der Allianz künftig prägen werden. 🌱
+
+  - filename: "1.jpg"
+    title: "🪔 Entzünden der Zeremonienlampe – Chor-Austauschprojekt"
+    description: "Als eingeladene Delegierte besuchten wir eine Schule, um Schülerinnen und Schüler zu begeistern und zu motivieren. Als Ehrengäste die Zeremonienkerze zu entzünden, war ein ehrenvoller Moment – ein Symbol für Wissen, Einheit und den Geist des kulturellen Austauschs."
+
+  - filename: "2.jpg"
+    title: "🎶 Internationaler Chor-Austausch – Gruppenfoto"
+    description: "Ein Gruppenfoto mit der Jugendkantorei Eichstätt und Schülerinnen und Schülern der St. Patrick's School, das den gemeinsamen Geist von Zusammenarbeit, Musik und interkultureller Freundschaft während des internationalen Austauschprogramms einfängt."
+
+  - filename: "3.jpg"
+    title: "🌳 Pflanzenökologie und Herbivorie in unterschiedlichen Lebensräumen"
+    description: "Dokumentation der Feldarbeit am Schneeweiderhof mit Vegetationsaufnahmen und Erfassung der Biodiversität. Das Bild steht für die Untersuchung des Herbivoriedrucks auf Birken in Wald- und Steinbruchhabitaten mit Fokus darauf, wie Baumvielfalt ökologische Wechselwirkungen prägt."
+
+  - filename: "6.jpg"
+    title: "🏆 After-Work-Cup – Teamgeist siegt"
+    description: "Was als spontane Idee im Gruppenchat begann, wurde zu einem unvergesslichen Teamsieg. Wir haben einfach aus Spaß und guter Laune mitgespielt, gegen 17 Teams angetreten und uns selbst überrascht, als wir den Pokal mit ins Lab gebracht haben – eine Erinnerung daran, dass mit den richtigen Menschen und der richtigen Energie Großartiges ganz von selbst entsteht."
+    details_link: "https://www.tu-sport.de/news/newsdetail/10-after-work-cup-teamgeist-geschick-und-jede-menge-spass-im-tu-sportzentrum-waldschulallee/"
+
+  - filename: "4.jpg"
+    title: "🌳 Pflanzenökologie und Herbivorie in unterschiedlichen Lebensräumen"
+    description: "Dokumentation der Feldarbeit am Schneeweiderhof mit Vegetationsaufnahmen und Erfassung der Biodiversität. Das Bild steht für die Untersuchung des Herbivoriedrucks auf Birken in Wald- und Steinbruchhabitaten mit Fokus darauf, wie Baumvielfalt ökologische Wechselwirkungen prägt."
+
+  - filename: "5.jpg"
+    title: "🪲 Das Darmmikrobiom von Totengräberkäfern"
+    description: "Dokumentation aus Feld und Labor zum Lebenszyklus von Totengräberkäfern, darunter Larven, die sich von Mäusekadavern ernähren. Die Bilder zeigen praxisnahe ökologische Forschung, die Feldarbeit, Verhaltensbeobachtung und molekulare Methoden verbindet, um mikrobielle Anpassungen im Zusammenhang mit Ernährung und Fortpflanzung aufzudecken."

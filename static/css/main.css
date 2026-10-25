@@ -142,6 +142,31 @@ h6 {
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
+.lang-bar {
+  background-color: var(--background-color);
+  font-family: var(--nav-font);
+  font-size: 13px;
+  padding: 6px 0 0 0;
+}
+
+.lang-bar .container-xl {
+  gap: 6px;
+}
+
+.lang-bar a {
+  color: var(--nav-color);
+  font-weight: 500;
+}
+
+.lang-bar a:hover,
+.lang-bar a.active {
+  color: var(--nav-hover-color);
+}
+
+.lang-bar span {
+  color: color-mix(in srgb, var(--default-color), transparent 60%);
+}
+
 .header {
   color: var(--default-color);
   background-color: var(--background-color);

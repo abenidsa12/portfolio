@@ -1,7 +1,37 @@
+ui:
+  welcome: "Welcome!"
+  nav_home: "Home"
+  nav_about: "About"
+  nav_resume: "Resume"
+  nav_skills: "Skills"
+  nav_portfolio: "Portfolio"
+  hero_greeting: "Hi, I'm {name}!"
+  hero_line: "I am a {professions} living in {country}"
+  scroll_down: "Scroll Down"
+  about: "About"
+  email: "Email"
+  resume: "Resume"
+  professional_experience: "Professional Experience"
+  projects: "Projects"
+  voluntary_activities: "Voluntary Activities"
+  education: "Education"
+  with_specialization: "with specialization in"
+  thesis: "Thesis"
+  scholarships: "Scholarships & Accolades"
+  certifications: "Certifications"
+  extracurricular_activities: "Extracurricular Activities"
+  skills: "Skills"
+  portfolio: "Portfolio"
+  more_details: "More Details"
+  copyright: "Copyright"
+  rights_reserved: "All Rights Reserved"
+  designed_by: "Designed by"
+
 about_me:
   - Hey there, I'm Abeni!
   - A Biologist/Scientist by heart, a team coordinator by profession, and a creative soul always in motion. Whether I'm unraveling the mysteries of the gut microbiome in burying beetles, orchestrating events and managing logistics with precision, or playing a beautiful tone on the piano, I thrive at the intersection of science, creativity and curiosity.
-  - With a Masters in Biology from the RPTU in Kaiserslautern, Germany, I've explored several topics from burying beetles to leaf-cutting ants to microbial secrets of migratory birds at Wadden sea. But these days, you will find me organizing projects, working closely with scientists from the fields of computer science, mathematics, psychology and computational neuroscience, supporting them in their research and teaching activities, handling budgets and ensuring everything flows seamlessly in my role as a Team Assistant. In addition, I serve as the Office Head for the Vice President for Digitalisation and Sustainability, who is also the current President-Elect of TU Berlin.
+  - Supporting women and FLINTA* people in academia and making sure every voice is heard is what drives my work as Women and Gender Equality Officer.
+  - With a Masters in Biology from the RPTU in Kaiserslautern, Germany, I've explored several topics from burying beetles to leaf-cutting ants to microbial secrets of migratory birds at Wadden sea. But these days, you will find me organizing projects, working closely with scientists from the fields of computer science, mathematics, psychology and computational neuroscience, supporting them in their research and teaching activities, handling budgets and ensuring everything flows seamlessly in my role as a Team Assistant. In addition, I served as the Office Head for the Vice President for Digitalisation and Sustainability, who is also the current President of TU Berlin.
   - Beyond work, I'm a pianist, singer, artist (I like to draw and paint), and an adventure seeker who loves travelling and capturing moments through photography.
   - I believe life is a balance of logic and creativity, planning and spontaneity, research and rhythm.
   - Let's connect! Whether it's about science, project management, or discovering the best travel spots in Germany (and Europe), I'm always up for a great conversation.

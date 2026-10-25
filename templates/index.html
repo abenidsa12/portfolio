@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ lang }}">
 
 <head>
   <meta charset="utf-8">
@@ -38,22 +38,30 @@
 
 <body class="index-page">
 
+  <div class="lang-bar">
+    <div class="container-fluid container-xl d-flex justify-content-end">
+      <a href="?lang=en" hreflang="en" class="{% if lang == 'en' %}active{% endif %}">EN</a>
+      <span>|</span>
+      <a href="?lang=de" hreflang="de" class="{% if lang == 'de' %}active{% endif %}">DE</a>
+    </div>
+  </div>
+
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="/" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="static/img/logo.png" alt=""> -->
-        <h1 class="sitename">Welcome!</h1>
+        <h1 class="sitename">{{ t.welcome }}</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#home" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#portfolio-details">Portfolio</a></li>
+          <li><a href="#home" class="active">{{ t.nav_home }}</a></li>
+          <li><a href="#about">{{ t.nav_about }}</a></li>
+          <li><a href="#resume">{{ t.nav_resume }}</a></li>
+          <li><a href="#skills">{{ t.nav_skills }}</a></li>
+          <li><a href="#portfolio-details">{{ t.nav_portfolio }}</a></li>
           <!-- <li><a href="#portfolio">Portfolio</a></li> -->
           <!-- <li><a href="#team">Team</a></li> -->
           <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -93,9 +101,9 @@
         <br>
         <br>
         <br>
-        <h2>Hi, I'm {{ data.personal_info.name }}!</h2>
-        <p>I am a {{ data.professions }} living in {{ data.personal_info.country }}<br></p>
-        <a href="#about" class="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
+        <h2>{{ t.hero_greeting.format(name=data.personal_info.name) }}</h2>
+        <p>{{ t.hero_line.format(professions=data.professions, country=data.personal_info.country) }}<br></p>
+        <a href="#about" class="btn-scroll" title="{{ t.scroll_down }}"><i class="bi bi-chevron-down"></i></a>
       </div>
 
     </section><!-- /Hero Section -->
@@ -105,7 +113,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
+        <h2>{{ t.about }}</h2>
         {% for about in data.about_me %}
         <br>
         <p>{{ about }}</p>
@@ -132,7 +140,7 @@
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li> -->
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li> -->
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>State:</strong> <span>{{ data.personal_info.state }}</span></li> -->
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:{{ data.personal_info.email }}">{{ data.personal_info.email }}</a></span></li>                   
+                  <li><i class="bi bi-chevron-right"></i> <strong>{{ t.email }}:</strong> <span><a href="mailto:{{ data.personal_info.email }}">{{ data.personal_info.email }}</a></span></li>                   
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Highest Qualification:</strong> <span>{{ data.personal_info.highest_degree }}</span></li> -->
                 </ul>
               </div>
@@ -161,7 +169,7 @@
 
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
-    <h2>Resume</h2>
+    <h2>{{ t.resume }}</h2>
   </div><!-- End Section Title -->
 
   <div class="container">
@@ -169,7 +177,7 @@
 
       <!-- Left Column: Work Experience -->
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-        <h3 class="resume-title">Professional Experience</h3>
+        <h3 class="resume-title">{{ t.professional_experience }}</h3>
         {% for experience in data.work_experience %}
         <div class="resume-item">
           <h4>{{ experience['job_title'] }}</h4>
@@ -187,7 +195,7 @@
         </div><!-- End Resume Item -->
         {% endfor %}
 
-        <h3 class="resume-title">Projects</h3>
+        <h3 class="resume-title">{{ t.projects }}</h3>
         {% for project in data.projects %}
         <div class="resume-item">
           <h4>{{ project['title'] }}</h4>
@@ -203,7 +211,7 @@
   
       <!-- Left Column: Voluntary Activities -->
       <!-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200"> -->
-        <h3 class="resume-title">Voluntary Activities</h3>
+        <h3 class="resume-title">{{ t.voluntary_activities }}</h3>
         {% for activity in data.voluntary_activities %}
         <div class="resume-item">
           <h4>{{ activity['role'] }}</h4>
@@ -221,22 +229,22 @@
 
       <!-- Right Column: Education -->
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-        <h3 class="resume-title">Education</h3>
+        <h3 class="resume-title">{{ t.education }}</h3>
         {% for education in data.education %}
         <div class="resume-item">
-          <h4>{{ education['degree'] }} {% if education['specialization'] %} with specialization in {{ education['specialization'] }} {% endif %}</h4>
+          <h4>{{ education['degree'] }} {% if education['specialization'] %} {{ t.with_specialization }} {{ education['specialization'] }} {% endif %}</h4>
           <h5>{{ education['duration'] }}</h5>
           <p><em>{{ education['university'] }}</em></p>
           <!-- <p>Final Grade: {{ education['final_grade'] }}</p> -->
           {% if education['thesis'] %}
-          <p>Thesis: {{ education['thesis'] }}</p>
+          <p>{{ t.thesis }}: {{ education['thesis'] }}</p>
           {% endif %}
         </div><!-- End Resume Item -->
         {% endfor %}
       <!-- </div> -->
         
       <!-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200"> -->
-          <h3 class="resume-title">Scholarships & Accolades</h3>
+          <h3 class="resume-title">{{ t.scholarships }}</h3>
           {% for scholarship in data.scholarships %}
           <div class="resume-item">
             <h4>{{ scholarship['name'] }}</h4>
@@ -247,7 +255,7 @@
         <!-- </div> -->
 
       <!-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200"> -->
-        <h3 class="resume-title">Certifications</h3>
+        <h3 class="resume-title">{{ t.certifications }}</h3>
         {% for certification in data.certifications %}
         <div class="resume-item">
           <h4>{{ certification['name'] }}</h4>
@@ -257,7 +265,7 @@
         {% endfor %}
 
         <!-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200"> -->
-          <h3 class="resume-title">Extracurricular Activities</h3>
+          <h3 class="resume-title">{{ t.extracurricular_activities }}</h3>
           {% for activity in data.extracurricular_activities %}
           <div class="resume-item">
             <h4>{{ activity['role'] }}</h4>
@@ -280,7 +288,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
+        <h2>{{ t.skills }}</h2>
         <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
       </div><!-- End Section Title -->
 
@@ -322,7 +330,7 @@
     <!-- Portfolio Details Section -->
     <section id="portfolio-details" class="portfolio-details section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
+        <h2>{{ t.portfolio }}</h2>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -339,7 +347,7 @@
                 {% endfor %}
                 <a href="{{  url_for('static', filename='img/portfolio/' + item.filename)  }}" title="{{ item.title }}" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 {% if item.details_link %}
-                  <a href="{{ item.details_link }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ item.details_link }}" title="{{ t.more_details }}" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 {% endif %}
               </div>
             </div>
@@ -369,14 +377,14 @@
       </div>
       <div class="container">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Lonely</strong> <span>All Rights Reserved</span>
+          <span>{{ t.copyright }}</span> <strong class="px-1 sitename">Lonely</strong> <span>{{ t.rights_reserved }}</span>
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you've purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          {{ t.designed_by }} <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
     </div>
